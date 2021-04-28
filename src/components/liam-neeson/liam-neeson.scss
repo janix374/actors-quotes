@@ -1,0 +1,24 @@
+#actor3 {
+    width: 100%;
+    height: 100%;
+       
+    #liamNeesonMobile, #liamNeesonMobileLineB, #liamNeesonMobileLineA {
+        opacity: 0;
+    }
+
+    #liamNeesonMobile {
+        transform-origin: 85% 85%;
+    }
+
+    #liamNeesonTextOne, #liamNeesonTextTwo, #liamNeesonTextThree, #liamNeesonTextFour {
+        font-size: 22px;
+        position: absolute;
+        font-family: 'Handlee', cursive;
+        width: 500px;
+        bottom: 150px;
+        left: 450px;
+        opacity: 0;
+        color: rgb(182, 76, 76);
+    }
+       
+}

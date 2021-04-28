@@ -1,0 +1,24 @@
+#actor2 {
+    width: 100%;
+    height: 100%;
+
+    #alPacinoHead {
+        transform-origin: 20% 25%; 
+    }
+
+    #alPacinoGun {
+        opacity: 0;
+        transform-origin: 60% 65%; 
+    }
+
+    #alPacinoFirstText {
+        position: absolute;
+        bottom: 140px;
+        left: 400px;
+        font-size: 40px;
+        font-family: 'Handlee', cursive;
+        opacity: 0;
+        color: rgb(182, 76, 76);
+    }
+}
+

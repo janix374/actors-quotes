@@ -1,0 +1,43 @@
+#actor1 {
+    width: 100%;
+    height: 100%;
+       
+    #matthewMcconaugheyCheeka {
+        transform-origin: 50% 45%; 
+    }
+
+    #alrightA {
+        display: block;
+        position: absolute;
+        left: 450px;
+        top: 350px;
+        font-size: 40px;
+        opacity: 0;
+        color: #000;
+        font-family: 'Handlee', cursive;
+    }
+
+    #alrightB {
+        display: block;
+        position: absolute;
+        left: 550px;
+        top: 450px;
+        font-size: 40px;
+        opacity: 0;
+        color: #000;
+        font-family: 'Handlee', cursive;
+    }
+
+    #alrightC {
+        display: block;
+        position: absolute;
+        left: 650px;
+        top: 550px;
+        font-size: 40px;
+        opacity: 0;
+        color: #000;
+        font-family: 'Handlee', cursive;
+    }
+       
+}
+
