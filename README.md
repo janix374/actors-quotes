@@ -1,2 +1,2 @@
 # actors-quotes
-Actors quotes app - using jquery and bootstrap
+Actors quotes app - using webpack, jquery and bootstrap

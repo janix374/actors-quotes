@@ -43,7 +43,7 @@ export function alPacino(quotes) {
   let alPacinoHead = () => {
     $('#alPacinoHead')
       .velocity(
-        { rotateZ: '1deg', translateX: '0px' },
+        { scaleX: 0.97 },
         {
           duration: 1000,
           complete: () => {

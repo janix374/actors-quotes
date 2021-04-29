@@ -1,6 +1,6 @@
 import liamNeesonHTML from './liam-neeson.html';
 import './liam-neeson.scss';
-import { loopTextForCard, toogleCard } from '../../js/helpers';
+import { loopTextForCard } from '../../js/helpers';
 
 export function liamNeeson(quotes) {
   // quotes loop
@@ -185,7 +185,4 @@ export function liamNeeson(quotes) {
   };
 
   activateClickEventForLiamNeeson();
-
-  // toogle card
-  toogleCard();
 }

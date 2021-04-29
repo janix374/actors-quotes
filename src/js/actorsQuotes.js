@@ -27,6 +27,16 @@ const actorQuotes = {
     'I never did think of myself as handsome–terribly attractive, yes, but not handsome.',
     'I’ve had an unbelievable life. I’ve been very lucky. You do create your own luck too, you know? I never forget where I’m from. Whenever I pass a building site or see somebody digging a ditch, I always think, ‘That’s real work',
   ],
+  ChristianBale: [
+    'The art of survival is a story that never ends.',
+    'Whatever you do, do it completely. Don’t do it half-arsed. Do it more than anybody else would.',
+    'I’ve had some painful experiences in my life, but I feel like I’m trivializing them by using them for a scene in a movie. I don’t want to do that. It just makes me feel kind of dirty for having done that.',
+    'It’s got to do with putting yourself in other people’s shoes and seeing how far you can come to truly understand them. I like the empathy that comes from acting.',
+    'I have a fear of being boring.',
+    'I do like taking stuff seriously that a lot of people look at as nonsense. I enjoy the insanity of that. And I like the commitment that is needed for that.',
+    'I find what I do for a living really funny. I mean, acting is kind of a hilarious thing for a grown man to call a job.',
+    'For me, I think the harder the shoot, the more I feel like I’m enjoying myself.',
+  ],
 };
 
 export default actorQuotes;

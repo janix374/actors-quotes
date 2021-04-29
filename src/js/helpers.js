@@ -16,7 +16,8 @@ export const loopTextForCard = (element, array) => {
 };
 
 export const toogleCard = () => {
-  $('.card-hide').on('click', () => {
+  $('.card-title').on('click', () => {
     $('.card-text').slideToggle('slow');
+    $('.card-link').slideToggle('slow');
   });
 };

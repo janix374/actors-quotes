@@ -4,20 +4,22 @@
     right: 20px;
     width: 50%;
     z-index: 10;
+    background-color: $cardBackground;
+    color: $cardColor;
 
     .card-title {
         font-size: 30px;
+        cursor: pointer;
     }
 
     .card-text {
         font-family: 'Handlee', cursive;
         font-size: 20px;
+        color: $black;
     }
 
-    .card-hide {
-        position: absolute;
-        right: 20px;
-        top: 10px;
+    a {
+        color: $cardColor;
     }
 }
 
