@@ -79,18 +79,19 @@
     -webkit-user-select: none;
     z-index: 10;
     background-color: $modalArrowBackground;
+    visibility: visible;
   }
   
   /* Position the "next button" to the right */
   .next {
-    right: 0;
+    right: 0px;
     border-radius: 3px 0 0 3px;
   }
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
-    background-color: rgba(119, 107, 107, 0.8);
+    background-color: #A9A9A9;
   }
   
   .active:hover {
@@ -118,6 +119,14 @@
     img:hover {
      border: 3px solid $btnCustomColor;
     //  transform: rotateY(2deg);
+    }
+  
+  }
+
+  @include breakpint(widthSlider) {
+    .prev,
+    .next {
+      visibility: hidden;
     }
   
   }
