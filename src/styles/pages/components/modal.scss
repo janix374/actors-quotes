@@ -6,6 +6,8 @@
     z-index: 10;
     background-color: $cardBackground;
     color: $cardColor;
+    background-color: rgba(255, 255, 255, 0.5); 
+    opacity: 1;
 
     .card-title {
         font-size: 30px;
@@ -13,7 +15,7 @@
     }
 
     .card-text {
-        font-family: 'Handlee', cursive;
+        // font-family: 'Handlee', cursive;
         font-size: 20px;
         color: $black;
     }

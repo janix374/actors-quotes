@@ -113,20 +113,24 @@
     img {
       border: 1px solid black;
       border-radius: 2%;
-      transition: transform .5s ease-in-out;  
+      box-shadow: -2px 2px rgb(48, 44, 44), -5px 5px rgb(48, 44, 44);
+      transition: 0.4s  ease-in-out;
+      transform: rotateY(7deg) rotatex(7deg);
     }
 
     img:hover {
-     border: 3px solid $btnCustomColor;
-    //  transform: rotateY(2deg);
+      border: 1px solid $btnCustomColor;
+      // opacity: 0.7;
+      cursor: pointer;
+      box-shadow: 0px 0px;
+      transform: rotateY(0deg) rotateX(0deg);
     }
   
   }
 
   @include breakpint(widthSlider) {
     .prev,
-    .next {
-      visibility: hidden;
-    }
-  
+      .next {
+        visibility: hidden;
+      }
   }
